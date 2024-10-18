@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="home.css">
+</head>
+<body>
+    <div class="navbar">
+        <a class="active" href="Home.html" target="_blank"><i class="fa fa-fw fa-home"></i> Home</a> 
+        <a href="Course.html" target="_blank"><i class="fa fa-fw fa-search"></i>Course</a> 
+        <a href="form.html" target="_blank"><i class="fa fa-fw fa-envelope"></i>Form</a> 
+        <a href="Home.html" target="_blank"><i class="fa fa-fw fa-user"></i>Contact</a>
+        <a onclick="document.getElementById('id01').style.display='block'"><i class="fa fa-fw fa-user"></i>Login</a>
+      </div>
+    <div id="id01" class="modal">
+  
+        <form class="modal-content animate" action="/action_page.php" method="post">
+          <div class="imgcontainer">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <img src="city.jpeg" alt="Avatar" class="avatar">
+          </div>
+      
+          <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+      
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+              
+            <button type="submit">Login</button>
+            <label>
+              <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+          </div>
+      
+          <div class="container" style="background-color:#f1f1f1">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+          </div>
+        </form>
+      </div>
+    <hr/>
+    <div>
+        <table>
+            <thead>
+                <th>City Engineering</th>
+                <th>Programs</th>
+                <th>Department</th>
+            </thead>
+            <tbody>
+                <tr>
+                <td style="width: 150px;">Address:
+                    Doddakallasandra, Off Kanakapura Road,
+                    Next to Gokulam Apartment,
+                    Bangalore</td>
+                    <td>Undergraduate<br/>
+                        Postgraduate<br/>
+                        Research</td>
+                    <td>Civil Engineering<br/>
+                        Computer Science & Engineering<br/>
+                        Mechanical Engineering<br/>
+                        AI & ML<br/>
+                        Information Science and Engineering<br/>
+                        Electronics and Communication<br/>
+                        Applied Science and Humanities</td>
+                </tr>
+                <br/><br/>
+                <tr>
+                    <td>Approved by AICTE, New Delhi and
+                        Affilated to Visvesvaraya Technological
+                        University, Belagavi.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <hr/>
+    <footer>
+        <p>© 2024 City Engineering College | Designed by Vivian</p>
+    </footer>
+    <hr/>
+</body>
+</html>

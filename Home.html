@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="home.css">
+</head>
+<body>
+    <div class="navbar">
+        <a class="active" href="Home.html" target="_blank"><i class="fa fa-fw fa-home"></i> Home</a> 
+        <a href="Course.html" target="_blank"><i class="fa fa-fw fa-search"></i>Course</a> 
+        <a href="form.html" target="_blank"><i class="fa fa-fw fa-envelope"></i>Form</a> 
+        <a href="Home.html" target="_blank"><i class="fa fa-fw fa-user"></i>Contact</a>
+        <a onclick="document.getElementById('id01').style.display='block'"><i class="fa fa-fw fa-user"></i>Login</a>
+      </div>
+      
+    <div>
+        <center>
+        <img src=".\city.jpeg" alt="City Logo" height="100px" width="100px"/>
+        <h2>City Engineering collage</h2>
+        </center>
+    </div>
+    <hr/>
+    <div>
+        <center>
+            <h2>Welcome To City Engineering College, Bengaluru</h2>
+            <img src="./clg.jpg" height="500px" width="800px"/>
+            <p>City Engineering College (CEC), established under Jayanagar Education Society by Dr K.R Paramahamsa, Chairman in the year 2001. CEC is one of the most sought colleges by students from across the country for Engineering and Management Education. The college believe in providing a high-quality education to the prospective professionals of the country for which necessary quality bench marks have been put in place, in the areas of faculty recruitment, training and development, teaching and learning process, student’s grooming, external academic audits and feedback system for academic enhancement.City Engineering College (CEC), established under Jayanagar Education Society by Dr K.R Paramahamsa, Chairman in the year 2001. CEC is one of the most sought colleges by students from across the country for Engineering and Management Education. The college believe in providing a high-quality education to the prospective professionals of the country for which necessary quality bench marks have been put in place, in the areas of faculty recruitment, training and development, teaching and learning process, student’s grooming, external academic audits and feedback system for academic enhancement.</p>
+        </center>
+    </div>
+    <br/>
+    <div>
+    <center>
+        <p>Link: <a href="https://cityengineeringcollege.ac.in/" target="_blank">Collage Website</a>   Course: <a href="./Course.html" target="_blank">CLICK</a>  Enquiry: <a href="./Form.html" target="_blank">FILL FORM</a></p>
+    </center>
+    </div>
+    <hr/>
+    <div>
+        <h2>We Are A University Of Excellence!</h2>
+        <p>City Engineering College, affiliated with VTU, is centrally located in Bangalore and boasts 19 years of growth with state-of-the-art infrastructure. Known for academic excellence and a welcoming atmosphere, it offers diverse programs and a vibrant community. The college prioritizes quality education with rigorous faculty standards, student development, and continuous academic enhancements, fostering creativity and learning.City Engineering College, affiliated with VTU, is centrally located in Bangalore and boasts 19 years of growth with state-of-the-art infrastructure. Known for academic excellence and a welcoming atmosphere, it offers diverse programs and a vibrant community.The college prioritizes quality education with rigorous faculty standards, student development, and continuous academic enhancements, fostering creativity and learning.</p>
+        <hr/>
+        <img src="./call.png" alt="call" height="50px" width="50px">
+        <a href="tel:+91 9880411361" class="call">Call +91 9880411361</a>
+        <p> For any kind of admission enquiry</p>
+    </div>
+    <hr/>
+    <div>
+        <h3>Campus:</h3>
+        <video width="500px" height="300ox" controls="controls"><source src="./video.mp4" type="video/mp4" /></video>
+    </div>
+    <hr/>
+    <div id="id01" class="modal">
+  
+        <form class="modal-content animate" action="/action_page.php" method="post">
+          <div class="imgcontainer">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <img src="city.jpeg" alt="Avatar" class="avatar">
+          </div>
+      
+          <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+      
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+              
+            <button type="submit">Login</button>
+            <label>
+              <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+          </div>
+      
+          <div class="container" style="background-color:#f1f1f1">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+          </div>
+        </form>
+      </div>
+      <div>
+        <table>
+            <thead>
+                <th>City Engineering</th>
+                <th>Programs</th>
+                <th>Department</th>
+            </thead>
+            <tbody>
+                <tr>
+                <td style="width: 150px;">Address:
+                    Doddakallasandra, Off Kanakapura Road,
+                    Next to Gokulam Apartment,
+                    Bangalore</td>
+                    <td>Undergraduate<br/>
+                        Postgraduate<br/>
+                        Research</td>
+                    <td>Civil Engineering<br/>
+                        Computer Science & Engineering<br/>
+                        Mechanical Engineering<br/>
+                        AI & ML<br/>
+                        Information Science and Engineering<br/>
+                        Electronics and Communication<br/>
+                        Applied Science and Humanities</td>
+                </tr>
+                <br/><br/>
+                <tr>
+                    <td>Approved by AICTE, New Delhi and
+                        Affilated to Visvesvaraya Technological
+                        University, Belagavi.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <hr/>
+    <footer>
+        <p>© 2024 City Engineering College | Designed by Vivian</p>
+    </footer>
+</body>
+</html>
